@@ -690,7 +690,7 @@ const myFunc = function(){
 La fonction zip prend en paramètre deux tableaux de même dimension et crée des couples de 2 éléments terme à terme, et retourne un tableau des couples.
 
 ```js
-zip([1,2], [3, 4)]);
+zip([1,2], [3, 4]);
 
 //[[1,3], [2, 4]]
 
