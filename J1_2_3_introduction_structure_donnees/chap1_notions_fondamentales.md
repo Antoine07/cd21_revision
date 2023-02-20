@@ -698,7 +698,7 @@ zip([1,2], [3, 4]);
 
 ### 10 Objet add
 
-Créez un objet Add qui addition soit deux entiers soit une liste de nombre(s), voyez un exemple d'utilisation ci-dessus :
+Créez un objet Add qui additionne soit deux entiers soit une liste de nombre(s), voyez un exemple d'utilisation ci-dessus :
 
 ```js
 Add.a = 10;
@@ -708,7 +708,7 @@ Add.sum(); // 30
 
 Add.numbers = [1, 2, 4];
 
-Add.sum(); // 10 
+Add.sum(); // 7 
 
 ``` 
 
