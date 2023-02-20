@@ -708,6 +708,12 @@ Add.sum(); // 30
 
 Add.numbers = [1, 2, 4];
 
+Add.sum(); // 37 
+
+Add.reset()
+
+Add.numbers = [1, 2, 4];
+
 Add.sum(); // 7 
 
 ``` 
