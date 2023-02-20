@@ -685,7 +685,18 @@ const myFunc = function(){
 }
 ```
 
-### 09 Exercice de synthèse corrigé un effet de bord <a class="anchor" id="section79"></a>
+### 11 Créez une fonction zip 
+
+La fonction zip prend en paramètre deux tableaux de même dimension et crée des couples de 2 éléments terme à terme, et retourne un tableau des couples.
+
+```js
+zip([1,2], [3, 4)]);
+
+//[[1,3], [2, 4]]
+
+``` 
+
+### 10 Exercice de synthèse corrigé un effet de bord <a class="anchor" id="section79"></a>
 
 Comment éviter l'effet de bord sur la propriété this (undefined) dans le code suivant? Proposez une solution.
 
