@@ -685,7 +685,7 @@ const myFunc = function(){
 }
 ```
 
-### 11 Créez une fonction zip 
+### 09 Créez une fonction zip 
 
 La fonction zip prend en paramètre deux tableaux de même dimension et crée des couples de 2 éléments terme à terme, et retourne un tableau des couples.
 
@@ -696,7 +696,23 @@ zip([1,2], [3, 4)]);
 
 ``` 
 
-### 10 Exercice de synthèse corrigé un effet de bord <a class="anchor" id="section79"></a>
+### 10 Objet add
+
+Créez un objet Add qui addition soit deux entiers soit une liste de nombre(s), voyez un exemple d'utilisation ci-dessus :
+
+```js
+Add.a = 10;
+Add.b = 20;
+
+Add.sum(); // 30
+
+Add.numbers = [1, 2, 4];
+
+Add.sum(); // 10 
+
+``` 
+
+### 11 Exercice de synthèse corrigé un effet de bord <a class="anchor" id="section79"></a>
 
 Comment éviter l'effet de bord sur la propriété this (undefined) dans le code suivant? Proposez une solution.
 
